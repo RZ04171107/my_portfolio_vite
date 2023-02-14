@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './About.scss';
 import { images } from '../../constants';
+import { urlFor, client } from '../../client';
+import AppWrap from '../../wrapper/AppWrap';
 
 const abouts = [
   {
@@ -28,6 +30,15 @@ const abouts = [
 ];
 
 const About = () => {
+  // const [abouts, setAbouts] = useState([]);
+
+  // useEffect(() => {
+  //   const query = '*[_type == "abouts"]';
+  //   client.fetch(query).then((data) => {
+  //     setAbouts(data);
+  //   });
+  // }, []);
+
   return (
     <>
       <h2 className='head-text'>
@@ -57,4 +68,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, 'about');
