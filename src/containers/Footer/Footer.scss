@@ -1,0 +1,76 @@
+.app__footer {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.app__footer-msg {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gray-color);
+  text-align: center;
+}
+
+.app__footer-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  //   margin: 4em 2rem 2rem;
+  padding: 2rem;
+
+  .app__footer-card {
+    min-width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fef4f5;
+
+    transition: all 0.3s ease-in-out;
+
+    img {
+      width: 40px;
+      height: 40px;
+      margin: 0 0.7rem;
+    }
+
+    p {
+      font-weight: 500;
+    }
+    a {
+      text-decoration: none;
+      font-weight: 500;
+    }
+    &:hover {
+      box-shadow: 0 0 25px #c2cbd4;
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.app__footer-cards .app__footer-card:nth-child(2n) {
+  background-color: #f2f7fb;
+}
+
+.app__footer-cards .app__footer-card:nth-child(2n):hover {
+  box-shadow: 0 0 25px #a3d2f7;
+}

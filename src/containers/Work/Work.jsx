@@ -18,7 +18,7 @@ const Work = () => {
       title: 'Fishing Lover',
       description:
         'Technologies: React.js, Styled Components, bootstrap, CSS, Node.js, MongoDB, Express',
-      projectLink: '',
+      projectLink: 'https://github.com/RZ04171107/FishingApp',
       codeLink: 'https://github.com/RZ04171107/FishingApp',
       imgUrl: '',
     },
