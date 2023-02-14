@@ -69,7 +69,7 @@ const skills = [
 const experiences = [
   {
     year: '2019~2021',
-    place: 'Bishop"s University',
+    place: `Bishop's University`,
     name: 'Bachelor of Computer Science',
     desc: 'Gerald Johnston Scholarship, 2020-2021 Academic Year',
   },

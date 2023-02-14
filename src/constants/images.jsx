@@ -25,6 +25,9 @@ import mysql from '../assets/mysql.png';
 import mongodb from '../assets/mongodb.png';
 import linkedin from '../assets/linkedin.png';
 
+import fishing from '../assets/fishing.png';
+import tindog from '../assets/tindog.png';
+
 export default {
   email,
   mobile,
@@ -49,4 +52,6 @@ export default {
   mongodb,
   mysql,
   linkedin,
+  fishing,
+  tindog,
 };

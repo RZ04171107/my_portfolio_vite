@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Work.scss';
 import { motion } from 'framer-motion';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
@@ -20,27 +20,16 @@ const Work = () => {
         'Technologies: React.js, Styled Components, bootstrap, CSS, Node.js, MongoDB, Express',
       projectLink: 'https://github.com/RZ04171107/FishingApp',
       codeLink: 'https://github.com/RZ04171107/FishingApp',
-      imgUrl: '',
+      imgUrl: images.fishing,
     },
     {
       title: 'TinDog',
       description: 'Bootstrap exercise project',
       projectLink: 'https://rz04171107.github.io/bootstrap_ex_tindog/',
       codeLink: 'https://github.com/RZ04171107/bootstrap_ex_tindog',
-      imgUrl: '',
+      imgUrl: images.tindog,
     },
   ];
-
-  // const [works, setWorks] = useState([]);
-
-  // useEffect(() => {
-  //   const query = '*[_type == "works"]';
-
-  //   client.fetch(query).then((data) => {
-  //     setWorks(data);
-  //     setFilterWork(data);
-  //   });
-  // }, []);
 
   return (
     <>
