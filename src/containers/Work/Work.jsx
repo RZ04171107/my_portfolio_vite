@@ -8,11 +8,12 @@ import AppWrap from '../../wrapper/AppWrap';
 const Work = () => {
   const works = [
     {
-      title: 'KeepCode',
-      description: 'Still working on it...',
+      title: 'Keeper',
+      description:
+        'A MERN stack note project, I am implementing authentication in it...',
       projectLink: '',
       codeLink: 'https://github.com/RZ04171107/Keep_vite',
-      imgUrl: '',
+      imgUrl: images.keeper,
     },
     {
       title: 'Fishing Lover',

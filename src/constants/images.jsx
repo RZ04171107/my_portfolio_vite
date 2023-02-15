@@ -27,6 +27,7 @@ import linkedin from '../assets/linkedin.png';
 
 import fishing from '../assets/fishing.png';
 import tindog from '../assets/tindog.png';
+import keeper from '../assets/keeper.png';
 
 export default {
   email,
@@ -54,4 +55,5 @@ export default {
   linkedin,
   fishing,
   tindog,
+  keeper,
 };
