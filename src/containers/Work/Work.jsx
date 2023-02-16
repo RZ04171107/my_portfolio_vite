@@ -10,7 +10,7 @@ const Work = () => {
     {
       title: 'Keeper',
       description:
-        'A MERN stack note project(api:https://keeper-mern-server.onrender.com), now I am implementing authentication in it...',
+        'A MERN stack note project. (api:https://keeper-mern-server.onrender.com)',
       projectLink: 'https://mern-keeper.netlify.app',
       codeLink: 'https://github.com/RZ04171107/Keep_vite',
       imgUrl: images.keeper,
